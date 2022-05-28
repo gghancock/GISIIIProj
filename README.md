@@ -37,4 +37,4 @@ The two primary variables in this visualisation were transit data and walking tr
 
 ### Transit Variable
 
-The transit variable was the Timetables Complete GTFS dataset from [NSW Transport Open Data] (https://opendata.transport.nsw.gov.au/dataset/timetables-complete-gtfs). The stops were converted to a shapefile using the following [Transit R Script](Scripts/Tracks_Data.R).
+The transit variable was the Timetables Complete GTFS dataset from [NSW Transport Open Data](https://opendata.transport.nsw.gov.au/dataset/timetables-complete-gtfs). The stops were converted to a shapefile using the following [Transit R Script](Scripts/Tracks_Data.R).
