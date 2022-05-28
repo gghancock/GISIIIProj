@@ -30,3 +30,11 @@ Australia’s National Parks system is distinctive for how it is managed (Wescot
 Public transit is an important aspect of park accessibility. In Australia, use of public transport has increased significantly with growing cities (Burke 2016). In _Problems and Prospects for Public Transport Planning in Australian Cities_, Burke looks at how funding is struggling to keep up with the expanding transit needs. He paints the history surrounding railways in Australia and their role in major cities. In the case of Sydney, the extensive public tram system was dismantled when automobiles began being manufactured and widespread. These problems from automobile focused city planning, highlight how important it is that the pre-existing public transportation infrastructure provides access to parks.
 
 In a case study of Shanghai, it is emphasised that urban parks/greenspaces and public transport are independently important but not often considered in tandem (Liang and Zhang 2017). They worked to conduct a measure for park accessibility by public transport in a more robust manner than just using distance measures. It combines GIS network analysis and accessibility calculations to achieve this more precise measure. Something akin to this could be pursued in future work.
+
+## Data
+
+The two primary variables in this visualisation were transit data and walking track data. 
+
+### Transit Variable
+
+The transit variable was the Timetables Complete GTFS dataset from [NSW Transport Open Data] (https://opendata.transport.nsw.gov.au/dataset/timetables-complete-gtfs). The stops were converted to a shapefile using the following [Transit R Script](Scripts/Tracks_Data.R).
