@@ -37,8 +37,8 @@ The two primary variables in this visualisation were transit data and walking tr
 
 ### Transit Variable
 
-The transit variable was the Timetables Complete GTFS dataset from [NSW Transport Open Data](https://opendata.transport.nsw.gov.au/dataset/timetables-complete-gtfs). The stops were cleaned and converted to a shapefile using the following [Transit R Script](Scripts/Stops_Data.R).
+The transit variable was the Timetables Complete GTFS dataset from [NSW Transport Open Data](https://opendata.transport.nsw.gov.au/dataset/timetables-complete-gtfs). The stops were cleaned and converted to a shapefile using the following [Transit R Script](Scripts/GTFS_Data.R).
 
 ### Track Variable
 
-The track variable was the Asset Infrastructure – Track Section dataset from [NSW SEED Datasets]( https://www.datasets.seed.nsw.gov.au/dataset/d814e21d-56d0-4ee6-a594-afb57d142de9/metaexport/html). The track sections were cleaned to a shapefile using the following [Transit R Script](Scripts/Tracks_Data.R).
+The track variable was the Asset Infrastructure – Track Section dataset from [NSW SEED Datasets]( https://www.datasets.seed.nsw.gov.au/dataset/d814e21d-56d0-4ee6-a594-afb57d142de9/metaexport/html). The track sections were cleaned to a shapefile using the following [Tracks R Script](Scripts/Tracks_Data.R).
