@@ -61,4 +61,13 @@ In the R script, you can see the use of [DEM data from Earth Explorer]( https://
 
 As you can see, far more fall into the steeper/more challenging categories when using the DEM data, which I believe may have been due to the varying lengths of segment and perhaps the reprojection of the track segments. Thus, I elected to use the NPWS grades in my visualisation as I think they are a better metric for seeing if a track is accessible.
 
+## Visualisation
+
+I elected to use mapbox to visualise the data though I had some issues with the end product not being as interactive as I had hope. The map can be accessed [here]( https://api.mapbox.com/styles/v1/ghancock/cl3p68jjt003014qb4etyu2zd.html?title=view&access_token=pk.eyJ1IjoiZ2hhbmNvY2siLCJhIjoiY2wzcDM3MnV5MHVhNzNkbTl2bGgxaDN1eSJ9.eJmD2VhGupYhQqymFPV0Kw&zoomwheel=true&fresh=true#11.2/-33.8334/151.2656).
+
+![Project Extents Map](Visualisations/MapboxProj.jpg)
+
+![Zoomed Map to Show Detail](Visualisations/Mapbox_SHM.jpg)
+
+The blue heatmap is a visualisation of the transit data. The NPWS areas are represented through the labelled polygons. The walking tracks are represented by lines with their colour representative of their grade (red is higher grade).
 
