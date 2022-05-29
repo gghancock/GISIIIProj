@@ -71,3 +71,24 @@ I elected to use mapbox to visualise the data though I had some issues with the 
 
 The blue heatmap is a visualisation of the transit data. The NPWS areas are represented through the labelled polygons. The walking tracks are represented by lines with their colour representative of their grade (red is higher grade).
 
+## Results
+
+As we can see, the transit coverage is more dense in the urban areas but does reach to the larger national parks outside of the major cities. It does not cover everywhere in many of the parks but does at least get you close to the boundary of many. The breakdown of track grades show that some are wheelchair accessible and the bulk of tracks are accessible to people without hiking experience (Grade 3 or below). 
+
+It would be interesting to expand this visualisation to the whole state and to include more statistical analysis of the transit accessibility. I would also be interested in looking into real time GTFS data to track transit to parks.
+
+## References
+
+Burke, Matthew. 2016. "Problems And Prospects For Public Transport Planning In Australian Cities". _Built Environment_ 42 (1): 37-54. doi:10.2148/benv.42.1.37.
+
+Frost, Warwick, and Jennifer Laing. 2013. "From Yellowstone To Australia And New Zealand: National Parks 2.0". _Global Environment_ 6 (12): 62-79. doi:10.3197/ge.2013.061204.
+
+Liang, Huilin, and Qingping Zhang. 2017. "Assessing The Public Transport Service To Urban Parks On The Basis Of Spatial Accessibility For Citizens In The Compact Megacity Of Shanghai, China". _Urban Studies_ 55 (9): 1983-1999. doi:10.1177/0042098017705846.
+
+NPWS. 2022. "Australian Walking Track Grading System | NSW National Parks". _NSW National Parks_. https://www.nationalparks.nsw.gov.au/safety/bushwalking-safety/australian-walking-track-grading-system.
+
+Shultis, John. 1995. "Improving The Wilderness: Common Factors In Creating National Parks And Equivalent Reserves During The Nineteenth Century". _Forest And Conservation History_ 39 (3): 121-129. doi:10.2307/3983516.
+
+UNESCO Bangkok Asia and Pacific Regional Bureau for Education. 2008. "2008 Heritage Award Winners". https://bangkok.unesco.org/sites/default/files/assets/article/Asia-Pacific%20Heritage%20Awards/files/2008-winners.pdf.
+
+Wescott, Geoffrey Charles. 1991. "Australia's Distinctive National Parks System". _Environmental Conservation_ 18 (4): 331-340. doi:10.1017/s037689290002258x.
