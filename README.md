@@ -42,3 +42,23 @@ The transit variable was the Timetables Complete GTFS dataset from [NSW Transpor
 ### Track Variable
 
 The track variable was the Asset Infrastructure – Track Section dataset from [NSW SEED Datasets]( https://www.datasets.seed.nsw.gov.au/dataset/d814e21d-56d0-4ee6-a594-afb57d142de9/metaexport/html). The track sections were cleaned to a shapefile using the following [Tracks R Script](Scripts/Tracks_Data.R).
+
+In the R script, you can see the use of [DEM data from Earth Explorer]( https://earthexplorer.usgs.gov/) to generate slope gradients for each track segment. I t was [Shuttle Radar Topography Mission (SRTM) 1 Arc-Second Global data]( https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1?qt-science_center_objects=0#qt-science_center_objects). These grades are seen in the [tmap html output](Visualisations/Slopes.html) and below.
+
+![Slopes using DEM]( Visualisations/Slopes.png)
+
+#### Summary of tracks by NPWS Walking Grade
+
+| Class 1 All Access Track | Class 2 Graded Track | Class 3 Walking Track | Class 4 Hiking Track | Class 5 Marked Route | Class 6 Unmarked Route | Not Applicable | Unknown |
+|--------------------------|----------------------|-----------------------|----------------------|----------------------|------------------------|----------------|---------|
+| 3.6                      | 8.2                  | 39.0                  | 19.6                 | 3.5                  | 2.7                    | 23.1           | 0.2     |
+
+
+#### Summary of tracks by DEM Slope
+| 0-3: flat | 3-5: mild | 5-8: medium | 8-10: hard | 10-20: extreme | >20: impossible |
+|-----------|-----------|-------------|------------|----------------|-----------------|
+| 7.8       | 10.2      | 21.3        | 13.6       | 33.2           | 13.8            |
+
+As you can see, far more fall into the steeper/more challenging categories when using the DEM data, which I believe may have been due to the varying lengths of segment and perhaps the reprojection of the track segments. Thus, I elected to use the NPWS grades in my visualisation as I think they are a better metric for seeing if a track is accessible.
+
+
